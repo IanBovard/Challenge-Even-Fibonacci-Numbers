@@ -8,7 +8,6 @@
 function _sumFibs( maxFibValue ) {
   var sum = 0;
   let newSum = 0;
-  let sumArray = [];
   let x = 0;
   let y = 1;
 
