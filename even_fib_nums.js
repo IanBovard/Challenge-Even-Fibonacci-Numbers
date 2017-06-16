@@ -7,10 +7,19 @@
  */
 function _sumFibs( maxFibValue ) {
   var sum = 0;
+  let newSum = 0;
+  let x = 0;
+  let y = 1;
 
-  // do your work here
-
-  return sum;
+    for (let i = 0;i < maxFibValue; i = sum){
+    sum = x + y;
+    x = y;
+    y = sum;
+      if (sum%2===0){
+        newSum+=sum;
+    }
+}
+return newSum;
 }
 
 // bonus round
